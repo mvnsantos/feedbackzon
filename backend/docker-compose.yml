@@ -1,0 +1,15 @@
+version: '3'
+
+services: 
+    # nome do meu servico
+    feedbackzon:
+        # Onde se encontra o meu docker
+        build: .
+        # Rodar o comando
+        command: npm start
+        # Espelhar o volume no ambiente
+        volumes: 
+            - .:/USR/FEEDBACKZON_API
+        # Espelho das portas na máquina e server
+        ports:
+            - 3335:3335
