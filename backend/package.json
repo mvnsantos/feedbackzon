@@ -1,0 +1,30 @@
+{
+  "name": "feature-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start:dev": "nodemon src/server.js --ignore __tests__",
+    "start": "node src/server.js --ignore __tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "applicationinsights": "^1.8.7",
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^12.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.12",
+    "mssql": "^6.2.1",
+    "sqlite3": "^5.0.2"
+  }
+}

@@ -1,0 +1,34 @@
+.checked {
+  color: #85bc20;
+}
+
+ body
+{
+  font-family: url(../../assets/fonts/FiraSans-Thin.ttf);
+}
+
+.ratingquestion
+{
+  color: #005b92 ;
+}
+
+.stars
+{
+  
+  padding: 7px;
+  text-align: center;
+  position: relative;
+}
+
+.fa-star:hover
+  {
+    color: #85bc20;
+    visibility: visible;
+    transition: opacity .2s;
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+  }
